@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="advanced_washing_machine_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="advanced_washing_machine" />
+            <top_module name="glbl" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="5,209.280 ns"></ZoomStartTime>
+      <ZoomEndTime time="8,209.281 ns"></ZoomEndTime>
+      <Cursor1Time time="7,050.000 ns"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="279"></NameColumnWidth>
+      <ValueColumnWidth column_width="123"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="27" />
+   <wvobject fp_name="/advanced_washing_machine/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/advanced_washing_machine/reset" type="logic">
+      <obj_property name="ElementShortName">reset</obj_property>
+      <obj_property name="ObjectShortName">reset</obj_property>
+   </wvobject>
+   <wvobject fp_name="/advanced_washing_machine/start" type="logic">
+      <obj_property name="ElementShortName">start</obj_property>
+      <obj_property name="ObjectShortName">start</obj_property>
+   </wvobject>
+   <wvobject fp_name="/advanced_washing_machine/door_closed" type="logic">
+      <obj_property name="ElementShortName">door_closed</obj_property>
+      <obj_property name="ObjectShortName">door_closed</obj_property>
+   </wvobject>
+   <wvobject fp_name="/advanced_washing_machine/mode" type="array">
+      <obj_property name="ElementShortName">mode[1:0]</obj_property>
+      <obj_property name="ObjectShortName">mode[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/advanced_washing_machine/water_level_reached" type="logic">
+      <obj_property name="ElementShortName">water_level_reached</obj_property>
+      <obj_property name="ObjectShortName">water_level_reached</obj_property>
+   </wvobject>
+   <wvobject fp_name="/advanced_washing_machine/water_valve" type="logic">
+      <obj_property name="ElementShortName">water_valve</obj_property>
+      <obj_property name="ObjectShortName">water_valve</obj_property>
+   </wvobject>
+   <wvobject fp_name="/advanced_washing_machine/motor_wash" type="logic">
+      <obj_property name="ElementShortName">motor_wash</obj_property>
+      <obj_property name="ObjectShortName">motor_wash</obj_property>
+   </wvobject>
+   <wvobject fp_name="/advanced_washing_machine/drain_valve" type="logic">
+      <obj_property name="ElementShortName">drain_valve</obj_property>
+      <obj_property name="ObjectShortName">drain_valve</obj_property>
+   </wvobject>
+   <wvobject fp_name="/advanced_washing_machine/motor_spin" type="logic">
+      <obj_property name="ElementShortName">motor_spin</obj_property>
+      <obj_property name="ObjectShortName">motor_spin</obj_property>
+   </wvobject>
+   <wvobject fp_name="/advanced_washing_machine/door_lock" type="logic">
+      <obj_property name="ElementShortName">door_lock</obj_property>
+      <obj_property name="ObjectShortName">door_lock</obj_property>
+   </wvobject>
+   <wvobject fp_name="/advanced_washing_machine/done_led" type="logic">
+      <obj_property name="ElementShortName">done_led</obj_property>
+      <obj_property name="ObjectShortName">done_led</obj_property>
+   </wvobject>
+   <wvobject fp_name="/advanced_washing_machine/fault_alarm" type="logic">
+      <obj_property name="ElementShortName">fault_alarm</obj_property>
+      <obj_property name="ObjectShortName">fault_alarm</obj_property>
+   </wvobject>
+   <wvobject fp_name="/advanced_washing_machine/current_state" type="array">
+      <obj_property name="ElementShortName">current_state[2:0]</obj_property>
+      <obj_property name="ObjectShortName">current_state[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/advanced_washing_machine/next_state" type="array">
+      <obj_property name="ElementShortName">next_state[2:0]</obj_property>
+      <obj_property name="ObjectShortName">next_state[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/advanced_washing_machine/timer" type="array">
+      <obj_property name="ElementShortName">timer[7:0]</obj_property>
+      <obj_property name="ObjectShortName">timer[7:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/advanced_washing_machine/wash_time" type="array">
+      <obj_property name="ElementShortName">wash_time[7:0]</obj_property>
+      <obj_property name="ObjectShortName">wash_time[7:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/advanced_washing_machine/spin_time" type="array">
+      <obj_property name="ElementShortName">spin_time[7:0]</obj_property>
+      <obj_property name="ObjectShortName">spin_time[7:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/advanced_washing_machine/timer_en" type="logic">
+      <obj_property name="ElementShortName">timer_en</obj_property>
+      <obj_property name="ObjectShortName">timer_en</obj_property>
+   </wvobject>
+   <wvobject fp_name="/advanced_washing_machine/timer_reset" type="logic">
+      <obj_property name="ElementShortName">timer_reset</obj_property>
+      <obj_property name="ObjectShortName">timer_reset</obj_property>
+   </wvobject>
+   <wvobject fp_name="/advanced_washing_machine/IDLE" type="array">
+      <obj_property name="ElementShortName">IDLE[2:0]</obj_property>
+      <obj_property name="ObjectShortName">IDLE[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/advanced_washing_machine/FILL_WATER" type="array">
+      <obj_property name="ElementShortName">FILL_WATER[2:0]</obj_property>
+      <obj_property name="ObjectShortName">FILL_WATER[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/advanced_washing_machine/WASH" type="array">
+      <obj_property name="ElementShortName">WASH[2:0]</obj_property>
+      <obj_property name="ObjectShortName">WASH[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/advanced_washing_machine/DRAIN" type="array">
+      <obj_property name="ElementShortName">DRAIN[2:0]</obj_property>
+      <obj_property name="ObjectShortName">DRAIN[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/advanced_washing_machine/SPIN" type="array">
+      <obj_property name="ElementShortName">SPIN[2:0]</obj_property>
+      <obj_property name="ObjectShortName">SPIN[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/advanced_washing_machine/DONE" type="array">
+      <obj_property name="ElementShortName">DONE[2:0]</obj_property>
+      <obj_property name="ObjectShortName">DONE[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/advanced_washing_machine/FAULT" type="array">
+      <obj_property name="ElementShortName">FAULT[2:0]</obj_property>
+      <obj_property name="ObjectShortName">FAULT[2:0]</obj_property>
+   </wvobject>
+</wave_config>
